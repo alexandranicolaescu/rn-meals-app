@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet, Button } from 'react-native';
+import { Text, View, StyleSheet, Button, FlatList } from 'react-native';
 
 const CategoriesScreen = props => {
     //console.log(props);
