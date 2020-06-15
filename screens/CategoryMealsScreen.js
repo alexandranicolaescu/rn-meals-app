@@ -6,6 +6,11 @@ import { CATEGORIES } from '../data/dummy-data';
 import MealList from '../components/MealList';
 import DefaultText from '../components/DefaultText';
 
+//import { createStore, applyMiddleware } from 'redux';                               //for debugging only
+//import { composeWithDevTools } from 'redux-devtools-extension';
+ 
+//const store = createStore(reducer, composeWithDevTools());
+
 const CategoryMealsScreen = props => {
     
     const catId = props.navigation.getParam('categoryId');
