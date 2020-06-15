@@ -67,19 +67,21 @@ MealDetailScreen.navigationOptions = (navigationData) => {
 const styles = StyleSheet.create({
     image:{
         width: '100%',
-        height: 200
+        height: 250
     },
 
     details: {
         flexDirection: 'row',
         padding: 15,
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',
+        backgroundColor:'#e0e0e0'
     },
 
     title: {
         fontFamily: 'open-sans-bold',
         fontSize: 22,
-        textAlign: 'center'
+        textAlign: 'center',
+        marginVertical: 15
     },
     listItem:{
         marginVertical: 10,
