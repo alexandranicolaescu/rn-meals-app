@@ -43,7 +43,7 @@ const CategoriesScreen = props => {
 
 CategoriesScreen.navigationOptions = (navData) => {
     return {
-        headerTitle: 'Meal Categories',
+        headerTitle: 'DietUp',
         headerLeft: () => 
             <HeaderButtons
                 HeaderButtonComponent = {HeaderButton}>

@@ -21,7 +21,7 @@ const defaultStackNavOptions = {
     headerTitleStyle: {
         fontFamily: 'open-sans-bold'
     },
-    headerBackTtleStyle: {
+    headerBackTitleStyle: {
         fontFamily: 'open-sans'
     },
     headerTintColor: Platform.OS === 'android' ? 'white' : Colors.primaryColor,
@@ -33,7 +33,7 @@ const MealsNavigator = createStackNavigator ({
     Categories: { 
         screen: CategoriesScreen,
         navigationOptions: {
-            HeaderTitle: 'Meal Categories'
+            HeaderTitle: 'DietUp'
         }
     },
 
